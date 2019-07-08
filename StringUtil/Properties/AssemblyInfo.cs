@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("ControlLibrary")]
-[assembly: AssemblyDescription("WinForm中关于控件相关自定义操作的库")]
+[assembly: AssemblyTitle("StringUtil")]
+[assembly: AssemblyDescription("关于字符串操作的常用方法")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("jb.xue@qq.com")]
-[assembly: AssemblyProduct("ControlLibrary")]
+[assembly: AssemblyProduct("StringUtil")]
 [assembly: AssemblyCopyright("Copyright ©  2019.7")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(true)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("fdb7e7b9-f3d0-4c89-8c47-a25e144ef79e")]
+[assembly: Guid("ffd16635-178b-40d6-935e-bb886cc858ad")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
