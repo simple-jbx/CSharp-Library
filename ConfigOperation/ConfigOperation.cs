@@ -15,7 +15,7 @@ namespace ConfigOperation
         /// </summary>
         /// <param name="key">要读取的key</param>
         /// <returns>返回key对应的value</returns>
-        public static string readConfig(string key)
+        public static string ReadConfig(in string key)
         {
             return ConfigurationManager.AppSettings[key];
         }
@@ -26,7 +26,7 @@ namespace ConfigOperation
         /// <param name="key"></param>
         /// <param name="value"></param>
         /// <param name="filePath">配置文件路径，默认为应用程序启动路径</param>
-        public static void setConfig(string key, string value, string filePath = "")
+        public static void SetConfig(in string key, in string value, string filePath = "")
         {
             if(string.IsNullOrWhiteSpace(filePath))
             {

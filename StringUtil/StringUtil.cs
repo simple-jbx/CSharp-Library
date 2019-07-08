@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace StringUtil
+namespace StringUtil.ShowString
 {
     /// <summary>
     /// 字符串操作的常用自定义方法
@@ -15,7 +15,7 @@ namespace StringUtil
         /// <param name="len">要截取的长度</param>
         /// <param name="appendStr">末尾要追加的字符创默认为空</param>
         /// <returns></returns>
-        public static string CutString(string str, int len = 30, string appendStr = "")
+        public static string CutString(in string str, int len = 30, in string appendStr = "")
         {
             if (str == null || len < 0)
             {

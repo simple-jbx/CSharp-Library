@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringUtil</name>
+    </assembly>
+    <members>
+        <member name="T:StringUtil.ShowString.StringUtil">
+            <summary>
+            字符串操作的常用自定义方法
+            </summary>
+        </member>
+        <member name="M:StringUtil.ShowString.StringUtil.CutString(System.String@,System.Int32,System.String@)">
+            <summary>
+            将字符串截成指定长度的字符串
+            </summary>
+            <param name="str">原始字符串</param>
+            <param name="len">要截取的长度</param>
+            <param name="appendStr">末尾要追加的字符创默认为空</param>
+            <returns></returns>
+        </member>
+        <member name="M:StringUtil.ShowString.StringUtil.FormatString(System.String,System.Int32)">
+            <summary>
+            以固定行长度显示字符串
+            </summary>
+            <param name="str">原始字符串</param>
+            <param name="lineLong">单行长度（默认30）</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

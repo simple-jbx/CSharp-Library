@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ControlLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ControlLibrary.ControLocation.ControLocation">
+            <summary>
+            有关控件操作的一些公共方法
+            </summary>
+        </member>
+        <member name="M:ControlLibrary.ControLocation.ControLocation.ControlCenteredHorizontally(System.Drawing.Size@,System.Windows.Forms.Control,System.Int32)">
+            <summary>
+            控件水平居中
+            </summary>
+            <param name="parentSize">父控件的Size</param>
+            <param name="control">要水平居中的控件</param>
+            <param name="offsetX">水平偏移量</param>
+        </member>
+        <member name="M:ControlLibrary.ControLocation.ControLocation.ControlCenteredHorizontally(System.Drawing.Size@,System.Drawing.Point@,System.Windows.Forms.Control,System.Int32)">
+            <summary>
+            控件水平居中
+            </summary>
+            <param name="parentSize">父控件的Size</param>
+            <param name="parentLocation">父控件的Location</param>
+            <param name="control">要水平居中的控件</param>
+            <param name="offsetX">水平偏移量</param>
+        </member>
+        <member name="M:ControlLibrary.ControLocation.ControLocation.ControlCenteredVertical(System.Drawing.Size@,System.Windows.Forms.Control,System.Int32)">
+            <summary>
+            控件垂直居中
+            </summary>
+            <param name="parentSize">父控件Size</param>
+            <param name="control">要垂直居中的控件</param>
+            <param name="offsetY">垂直偏移量</param>
+        </member>
+        <member name="M:ControlLibrary.ControLocation.ControLocation.ControlCenteredVertical(System.Drawing.Size@,System.Drawing.Point@,System.Windows.Forms.Control,System.Int32)">
+            <summary>
+            控件垂直居中
+            </summary>
+            <param name="parentSize">父控件的Size</param>
+            <param name="parentLocation">父控件的Location</param>
+            <param name="control">要垂直居中的控件</param>
+            <param name="offsetY">垂直偏移量</param>
+        </member>
+        <member name="M:ControlLibrary.ControLocation.ControLocation.ControlCentered(System.Drawing.Size@,System.Windows.Forms.Control,System.Int32,System.Int32)">
+            <summary>
+            控件水平+垂直居中
+            </summary>
+            <param name="parentSize">父控件的Size</param>
+            <param name="control">要居中的控件</param>
+            <param name="offsetX">水平偏移量</param>
+            <param name="offsetY">垂直偏移量</param>
+            <returns></returns>
+        </member>
+        <member name="M:ControlLibrary.ControLocation.ControLocation.ControlCentered(System.Drawing.Size@,System.Drawing.Point@,System.Windows.Forms.Control@,System.Int32,System.Int32)">
+            <summary>
+            控件水平+垂直居中
+            </summary>
+            <param name="parentSize">父控件的Size</param>
+            <param name="parentLocation">父控件的Location</param>
+            <param name="control">要居中的控件</param>
+            <param name="offsetX">水平偏移量</param>
+            <param name="offsetY">垂直偏移量</param>
+        </member>
+        <member name="M:ControlLibrary.ControLocation.ControLocation.NewFormLocatioin(System.Drawing.Point@,System.Drawing.Point@,System.Drawing.Point@)">
+            <summary>
+            返回窗体新的位置（用于鼠标拖动窗体）
+            </summary>
+            <param name="oldLocation">窗体移动前Location</param>
+            <param name="oldMouseLocation">拖动前鼠标Location</param>
+            <param name="newMouseLocation">当前鼠标Location</param>
+            <returns></returns>
+        </member>
+        <member name="M:ControlLibrary.ControLocation.ControLocation.SetFormLocatioin(System.Windows.Forms.Form,System.Drawing.Point@,System.Drawing.Point@,System.Drawing.Point@)">
+            <summary>
+            修改窗体位置（用于鼠标拖动窗体）
+            </summary>
+            <param name="form">要修改位置的窗体</param>
+            <param name="oldLocation">窗体移动前Location</param>
+            <param name="oldMouseLocation">拖动前鼠标Location</param>
+            <param name="newMouseLocation">当前鼠标Location</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

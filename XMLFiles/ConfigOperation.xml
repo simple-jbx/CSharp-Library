@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConfigOperation</name>
+    </assembly>
+    <members>
+        <member name="T:ConfigOperation.ConfigOperation">
+            <summary>
+            有关C#中配置文件的自定义操作
+            </summary>
+        </member>
+        <member name="M:ConfigOperation.ConfigOperation.ReadConfig(System.String@)">
+            <summary>
+            读取配置文件中key对应的value
+            </summary>
+            <param name="key">要读取的key</param>
+            <returns>返回key对应的value</returns>
+        </member>
+        <member name="M:ConfigOperation.ConfigOperation.SetConfig(System.String@,System.String@,System.String)">
+            <summary>
+            根据key将对应的value写入配置文件
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <param name="filePath">配置文件路径，默认为应用程序启动路径</param>
+        </member>
+    </members>
+</doc>
